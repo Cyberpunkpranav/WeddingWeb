@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+   font-family:'Oswald', sans-serif;
+   font-size:1rem;
+}
+p{
+    text-transform: capitalize;
+}
+/* navbar */
+
+.active{
+    border-bottom:2px solid pink;
+
+}
+.navbar{
+    background-image: linear-gradient(93.18deg, rgba(255, 255, 255, 0.87) 47.37%, rgba(255, 255, 255, 0.6699) 59.28%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar img{
+    padding-left:40%;
+}
+.nav-item{
+    font-size:1rem;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    color:rgba(48, 57, 82, 1);
+}
+
+
+/* herosection */
+
+.herosection{
+    color:white;
+    position: relative;
+
+}
+.herosection h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 10rem;
+    margin-bottom:6%;
+}
+.herosection h3{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size:6.125rem;
+    line-height: 20px;
+    margin-bottom:5%;
+}
+.herosection p{
+    background-color: rgba(196, 69, 105, 1);
+    display:inline-block;
+    margin:0 auto;
+    font-family:'Oswald', light;
+    font-size:2.375rem;
+    font-weight:100;
+    padding: 0.5rem 2rem;
+}
+.fullscreen-video-wrap{
+
+    left:0;
+ }
+ .fullscreen-video-wrap video{
+    min-width:100%;
+ }
+
+ .header-overlay{
+    width:100%;
+    position:absolute;
+    left:0%;
+    top:25%;
+ }
+
+ /* storysection */
+.storysection{  
+    color:rgba(48, 57, 82, 1);
+}
+
+.storysection h1{
+    margin-top:2%;
+    font-size:2rem;
+}
+.storysection h4{
+
+    font-size:1rem;
+}
+.storysection .card-img-overlay{
+    top: inherit;
+    padding:0px;
+}
+
+
+.sara-card{
+    border-left: 15px solid rgba(196, 69, 105, 1);
+    box-sizing:content-box;
+    z-index: -1;
+}
+.sara-card img{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+.andy-card{
+    border-right: 15px solid rgba(48, 57, 82, 1);
+    box-sizing:content-box;
+    z-index: -1;
+}
+.andy-card img{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+.card-text h1{
+color:rgba(196, 69, 105, 1);
+font-family: 'Qwitcher Grypen',cursive; 
+font-size:3.75rem;
+}
+.card-text h3{
+color:rgba(196, 69, 105, 1);
+font-size:1.5rem;
+}
+
+/* datesection */
+.datesection{
+    background-image: url(../images/flowerleft.png), url(../images/flowerright.png);
+    background-position:left,right;
+    background-repeat: no-repeat, no-repeat;
+    color:rgba(48, 57, 82, 1);
+    padding-top:70px;
+    padding-bottom:70px;
+
+
+}
+
+.datesection h1{
+    font-size:2rem;
+}
+.datesection h2{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size:5.25rem; 
+}
+.datesection h4{
+    font-size:1rem;
+}
+.datesection h5{
+    color:rgba(196, 69, 105, 1);
+    font-size:1.5rem;
+}
+/* detailsection */
+.detailsection h1{
+    font-size:2rem;
+}
+.detailsection h4{
+    font-size:1rem;
+}
+.detailsection .card{
+    z-index:-1;
+}
+.detailsection p{
+   font-size:1rem;
+}
+.detailsection a{
+    color:rgba(196, 69, 105, 1);
+}
+.detailsection .card-text{
+    margin-bottom:1px;
+}
+.detailsection #place{
+    color:rgba(196, 69, 105, 1);
+}
+.detailsection #state{
+    color:rgba(48, 57, 82, 0.64);
+}
+.detailsection #date{
+color:rgba(196, 69, 105, 1);
+}
+.detailsection #time{
+    color:rgba(48, 57, 82, 0.64);
+}
+.detailsection #loc{
+    color:rgba(48, 57, 82, 0.64);
+}
+.detailsection span{
+    color:rgba(196, 69, 105, 1);
+}
+
+/* daysection */
+.daysection h1{
+    font-size:2rem;
+}
+.daysection h4{
+    font-size:1rem;
+}
+.daysection .daybtn{
+    box-sizing: content-box;
+border-top-left-radius : 0;
+border-top-right-radius : 0;
+border-bottom-right-radius : 0;
+border-bottom-left-radius : 0; 
+}
+#showall{
+background-color:rgba(196, 69, 105, 1);
+}
+#engagement{
+background-color:rgba(245, 245, 245, 1);
+}
+#ceremony{
+    background-color:rgba(245, 245, 245, 1);
+}
+
+/* rsvpsection */
+.rsvpsection{
+    background-image: url(../images/image13.png), url(../images/image14.png);
+    background-position:right,left;
+    background-repeat: no-repeat, no-repeat;
+    padding-top:40px;
+
+}
+#Attend{
+    padding-left:10%;
+}
+#Attend p{
+    margin-bottom: 0;
+    font-size:1.5rem;
+   }
+.rsvpsection h1{
+    font-size:2rem;
+}
+.rsvpsection h4{
+    font-size:1rem;
+}
+.rsvpsection select{
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-left-radius : 0; 
+}
+.rsvpsection textarea{
+    resize:none;
+    padding-left:40px;
+    box-sizing: content-box;
+}
+
+/* thanksection */
+.thanksection{
+    background-image: url(../images/image18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:400px;
+    width:100%;
+}
+
+.form-select{
+    width:86.5%
+}
+.alert{
+    left:0px;
+    right:0px;
+    top:15%;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-left-radius : 0;  
+    display:none;
+    z-index:3;   
+}
+@media screen and (max-width:992px){
+    .herosection h1{
+        font-size:6rem;
+    }
+    .herosection h3{
+        font-size: 4rem;
+    }
+    .herosection img{
+        width:100%;
+    }
+    .herosection p{
+        font-size: 2rem;
+    }
+    .header-overlay{
+        top:25%;
+    }
+ .datesection{
+  background-size: 50%;
+} 
+.rsvpsection{
+    background-size: 25%;
+}
+
+}
+@media screen and (max-width:575px){
+    .herosection h1{
+        font-size:4rem;
+    }
+    .herosection h3{
+        font-size: 3rem;
+    }
+    .herosection img{
+        width:80%;
+    }
+    .herosection p{
+        font-size: 1.4rem;
+    }
+    .header-overlay{
+        top:10%;
+    }
+
+    .andy-card{
+        width:60%;
+        margin:0 auto;
+    }
+    .sara-card{
+        width:60%;
+        margin:0 auto;
+    }
+  .storysection .card-text{
+        height:60%;
+        font-size:0.5rem;
+        padding:0px;
+    }
+    #Attend p{
+        margin-bottom: 0;
+        font-size:1.5rem;
+       }
+}
+@media screen and (max-width:380px){
+    .herosection h1{
+        font-size:3rem;
+    }
+    .herosection h3{
+        font-size: 2rem;
+    }
+    .herosection img{
+        width:70%;
+    }
+    .herosection p{
+        font-size: 1rem;
+    }
+    .header-overlay{
+        top:10%;
+    }
+    .storysection .card-text{
+        height:90%;
+    }
+    .storysection .card-title{
+        font-size:2rem;
+    }
+    .storysection .card-text{
+        font-size:0.6rem;
+    }
+    .storysection h1,.detailsection h1, .daysection h1,.rsvpsection h1,.datesection h1{
+        font-size:1.5rem;
+    }
+    .datesection h2{
+        font-size:4.3rem;
+    }
+   .rsvpsection h5{
+    font-size:1.2rem;
+   }
+
+   .rsvpsection label{
+    font-size:0.9rem;
+   }
+   #Attend p{
+    margin-bottom: 0;
+    font-size:1rem;
+   }
+}   

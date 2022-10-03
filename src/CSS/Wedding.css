@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Qwitcher+Grypen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+}
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+.weddingintro {
+  background-image: url(../images/weddingbackground.jpg);
+  margin-top: 5.7%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.weddingintro h1 {
+  color: #ede1e7;
+}
+.weddingintro p {
+
+
+  font-size: 1.3rem;
+
+}
+.reception {
+
+  margin-top: 10%;
+}
+.reception .container {
+   height:950px;  
+  margin-top: 3%;
+  position: relative;
+  z-index: -1;
+}
+.reception .image1{
+position: absolute;
+margin-top: 16%;
+margin-left:24%;
+z-index:1;
+box-shadow: 0px 1px 10px 2px;
+border: 10px solid transparent;
+}
+.image1:hover{
+  border: 2px solid blue;
+}
+.reception .image2 {
+  position: absolute;
+  box-shadow: 0px 1px 10px 2px;
+  animation-name: torightandbottom ;
+  animation-duration:10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+.reception .image3 {
+  position: absolute;
+  margin-left:73%;
+  box-shadow: 0px 1px 10px 2px;
+  animation-name: toleftandbottom ;
+  animation-duration:10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+.reception .image4 {
+  position: absolute;
+  margin-top:35%;
+  box-shadow: 0px 1px 10px 2px;
+  animation-name: torightandup ;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+
+}
+.reception .image5 {
+  position: absolute;
+  margin-top:35%;
+  margin-left:73%;
+  box-shadow: 0px 1px 10px 2px;
+  animation-name: toleftandup;
+  animation-duration:10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+.destination{
+  margin-top:5%;
+}
+.destination p{
+  padding-top:10%;
+  padding-bottom:10%;
+  color:white;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin:0 auto;
+}
+
+.destination .container-sm{
+  background-image: url(../images/destinationbg.jpg);
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.destination .row{
+padding-bottom:3%;
+}
+
+.footervideo{
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  z-index: -100;
+  border-top: 10px solid rgba(134, 84, 137, 0.936);
+  border-bottom: 10px solid rgba(134, 84, 137, 0.936);
+}
+
+
+@keyframes torightandbottom{
+  0% {
+    margin-left:0%;
+    margin-top: 0%;
+  }
+  25%{
+    margin-left:73%;
+    margin-top: 0%;
+  }
+  50%{
+    margin-left:73%;
+    margin-top: 50%;
+  }
+  75%{
+    margin-top:50%;
+    margin-left:0%
+  }
+  100%{
+    margin-left:0%;
+    margin-top:0%;
+  }
+}
+@keyframes toleftandbottom{
+
+  0%{
+    margin-left:73%;
+    margin-top:0%;
+  }
+  25%{
+    margin-left:0%;
+    margin-top:0%;
+  }
+  50%{
+    margin-left:0%;
+    margin-top:50%;
+  }
+  75%{
+    margin-left:73%;
+    margin-top:50%;
+  }
+  100%{
+    margin-left:73%;
+    margin-top:0%;
+
+  }
+}
+@keyframes torightandup{
+  0%{
+    margin-left:0%;
+  }
+  25%{
+    margin-left:73%;
+    margin-top:35%;
+  }
+  50%{
+    margin-left:73%;
+    margin-top:0%;
+  }
+  75%{
+    margin-top:0%;
+    margin-left:0%;
+  }
+  100%{
+    margin-left:0%;
+    margin-top:35%;
+  }
+
+}
+@keyframes toleftandup{
+  0%{
+    margin-left:73%;
+  }
+  25%{
+    margin-left:0%;
+    margin-top:35%;
+  }
+  50%{
+    margin-left:0%;
+    margin-top:0%;
+  }
+  75%{
+    margin-left:73%;
+    margin-top:0%;
+  }
+  100%{
+    margin-top:35%;
+    margin-left:73%;
+  }
+
+}
+
+@media (max-width:1200px){
+  .reception .container {
+    height:700px;
+  }
+}
+@media (max-width:1000px){
+  .reception .container {
+    height:450px;
+  }
+}
+@media (max-width:500px){
+  .reception .container {
+    height:400px;
+  }
+}
